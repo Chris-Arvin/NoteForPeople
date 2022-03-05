@@ -22,6 +22,8 @@
   * rviz -d hdl_localization.rviz 
 
 ----
-todo：
+## todo：
 * 对探测到的人进行二次滤波，可以根据该人在膨胀后的costmap中的数值来进行删减
 * 激光和rgbd的匹配
+
+----
