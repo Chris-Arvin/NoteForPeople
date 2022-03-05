@@ -2,9 +2,9 @@
 ----
 ## slam:
 * 打开激光
-** roslaunch velodyne_pointcloud VLP16_points.launch
+* * roslaunch velodyne_pointcloud VLP16_points.launch
 * 打开建图
-** roslaunch hdl_graph_slam hdl_graph_slam_501.launch 【注：使用实体激光时，需要commen out其中的一个node；501是应用在室内的luanch，400是应用在室外环境的（耦合了机器人里程计？）；要把sensor height这个参数调整到激光的实际高度，推荐高度在1.5m左右，准确度较高；】
+* * roslaunch hdl_graph_slam hdl_graph_slam_501.launch 【注：使用实体激光时，需要commen out其中的一个node；501是应用在室内的luanch，400是应用在室外环境的（耦合了机器人里程计？）；要把sensor height这个参数调整到激光的实际高度，推荐高度在1.5m左右，准确度较高；】
 * 打开可视化
 ** roscd hdl_graph_slam/rviz/
 ** rviz -d hdl_graph_slam.rviz 
