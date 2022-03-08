@@ -9,7 +9,7 @@
   * roscd hdl_graph_slam/rviz/
   * rviz -d hdl_graph_slam.rviz 
 * 保存地图为pcd文件（destination修改为自己的路径）
-  * rosservice call /hdl_graph_slam/save_map "utm: false resolution: 0.01 destination: '/home/arvin/Documents/temp6.pcd'" 
+  * rosservice call /hdl_graph_slam/save_map "utm:false resolution:0.01 destination:'/home/arvin/Documents/temp6.pcd'" 
 
 ----
 ## trakcing：
